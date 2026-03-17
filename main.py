@@ -1,6 +1,6 @@
 from task import add_task, list_tasks, complete_task, remove_task
 
-WELCOME_MESSAGE = "Welcome to Task Manager CLI! Nikilaaaaa"
+WELCOME_MESSAGE = "Welcome to Task Manager CLI! Binari"
 
 
 def show_help():
@@ -18,7 +18,7 @@ Commands:
 
 def run():
     print("=" * 40)
-    print(WELCOME_MESSAGE)
+    print("Welcome to Task Manager CLI! Binari")
     print("=" * 40)
     show_help()
 
